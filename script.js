@@ -40,7 +40,7 @@ function modifyPixel(pixel, mappedPixel, lightColors) {
     if(i >= 3) {
       return 255
     }
-    return c * generalMultiplier/255
+    return c * (generalMultiplier+32)/255
     return c * ((Math.max(generalMultiplier), 64) /255)
   })
 }
